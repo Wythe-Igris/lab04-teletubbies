@@ -25,4 +25,5 @@ The initial code pack and workflow were prepared by Igris using prior class patt
 |---|---|---|
 | Lin Khant Pyae (VII) | Vii1nonly | conftest.py — added reusable funded account fixture |
 | Theikdi Nyan | Wythe-Igris | test_deposit.py |
+| Aung Myat Phone | therealfakeCowboy | test_withdraw.py |
 | Kaung Htet Hein (Erik) | erikchennnn | test_teardown.py |

@@ -22,12 +22,12 @@ The initial code pack and workflow were prepared by Igris using prior class patt
 
 | Member | GitHub Username | File / Actual Contribution |
 |---|---|---|
-| Lin Khant Pyae (VII) | Vii1nonly | conftest.py — added reusable funded account fixture |
-| Theikdi Nyan | Wythe-Igris | test_deposit.py |
-| Aung Myat Phone | therealfakeCowboy | test_withdraw.py |
-| Kaung Htet Hein (Erik) | erikchennnn | test_teardown.py |
-| Min Htet Aung (Nick) | ARandomGuy9786 | test_shared.py |
-| William | WillieNay | test_account_operations.py added |
+| Lin Khant Pyae (VII) | Vii1nonly | conftest.py — integrated the reusable funded account fixture; added own README row and conflict documentation |
+| Theikdi Nyan | Wythe-Igris | test_deposit.py — integrated deposit tests; set up the repository and starter README; added own row and resolved the Igris/VII conflict |
+| Aung Myat Phone | therealfakeCowboy | test_withdraw.py — integrated withdrawal and overdraft tests; added own README row and reflection answers |
+| Kaung Htet Hein (Erik) | erikchennnn | test_teardown.py — integrated yield-fixture tests; added own README row, resolved the Erik/Karlos conflict, and added the contribution summary |
+| Min Htet Aung (Nick) | ARandomGuy9786 | test_shared.py — integrated shared-fixture tests; added own README row and resolved the Nick/William conflict |
+| William | WillieNay | test_account_operations.py — integrated combined-operation and full-withdrawal tests; added own README row and merged teammates' updates |
 
 ## Our Merge Conflict
 

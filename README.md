@@ -47,3 +47,21 @@ The following historical excerpt records the Igris/VII conflict shown in our sav
 We kept both members' rows, placed the table separator directly below the header, and removed the active conflict markers. We then staged README.md, committed the resolution, and pushed it. Further conflicts involved Erik/Karlos and Nick/William; their resolutions preserved the existing rows and added the remaining members' rows. The completed table contains all six members.
 
 The resolutions are recorded in merge commits `ef87a32` (Igris/VII), `97ed0a6` (Erik/Karlos), and `8136c20` (Nick/William).
+
+## Reflection Questions
+
+### 1. Why was your push rejected, and how did you fix it?
+
+Our group experienced rejected pushes when teammates had already pushed commits that were missing from our local branches. We pulled the remote changes, resolved the README conflicts, committed the merges, and pushed again.
+
+### 2. Why could Git not resolve the README conflict automatically?
+
+Members inserted different contribution rows at the same location in the README table from a shared starting version. Git could not determine how to combine those overlapping edits, so we manually retained everyone's rows and corrected the table layout.
+
+### 3. What is the difference between committing and pushing?
+
+Committing records a snapshot of staged changes in your local Git repository. Pushing uploads local commits to the shared GitHub repository so teammates can access them.
+
+### 4. How do fixtures reduce duplicated setup code in tests?
+
+Fixtures define reusable setup that pytest supplies to tests requesting it, so each test does not need to repeat the account creation code. Our function-scoped fixtures provide a fresh account for each test, and conftest.py makes funded_account available across test files.

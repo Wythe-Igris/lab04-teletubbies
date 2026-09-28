@@ -12,8 +12,7 @@ python -m pytest -v
 python -m pytest -v -s
 ```
 
-On Windows PowerShell, activate with `venv\Scripts\Activate.ps1` instead.
-The completed test suite contains 10 tests.
+On Windows PowerShell, activate with `venv\Scripts\Activate.ps1` instead. The completed test suite contains 10 tests.
 
 ## Preparation and contributions
 
@@ -22,4 +21,5 @@ The initial code pack and workflow were prepared by Igris using prior class patt
 ## Who Did What
 
 | Member | GitHub Username | File / Actual Contribution |
-|---|---|---|
+| --- | --- | --- |
+| William | WillieNay | test_account_operations.py added |

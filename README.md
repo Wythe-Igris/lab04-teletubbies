@@ -65,3 +65,16 @@ Committing records a snapshot of staged changes in your local Git repository. Pu
 ### 4. How do fixtures reduce duplicated setup code in tests?
 
 Fixtures define reusable setup that pytest supplies to tests requesting it, so each test does not need to repeat the account creation code. Our function-scoped fixtures provide a fresh account for each test, and conftest.py makes funded_account available across test files.
+
+## Git Contribution Summary
+
+Contribution counts at commit `9561d41`:
+
+```text
+6  Wythe-Igris
+4  Vii1nonly
+3  ARandomGuy9786
+3  William Nay
+3  erikchennnn
+3  therealfakeCowboy
+```

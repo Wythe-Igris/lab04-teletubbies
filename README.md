@@ -22,4 +22,6 @@ The initial code pack and workflow were prepared by Igris using prior class patt
 ## Who Did What
 
 | Member | GitHub Username | File / Actual Contribution |
-|Theikdi Nyan|Wythe-Igris|test_deposit.py|
+|---|---|---|
+| Lin Khant Pyae (VII) | Vii1nonly | conftest.py — added reusable funded account fixture |
+| Theikdi Nyan | Wythe-Igris | test_deposit.py |

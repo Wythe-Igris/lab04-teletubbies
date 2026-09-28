@@ -35,12 +35,15 @@ Group members committed their contribution rows to the same README table from di
 
 The following historical excerpt records the Igris/VII conflict shown in our saved screenshot. It is quoted evidence, not an unresolved conflict in this README:
 
+```text
 <<<<<<< HEAD
 |Theikdi Nyan|Wythe-Igris|test_deposit.py|
 =======
 |---|---|---|
 | Lin Khant Pyae (VII) | Vii1nonly | conftest.py — added reusable funded account fixture |
 >>>>>>> 4a60421908175a936d85300ceaeb1bcd7a0d778d
+```
+
 We kept both members' rows, placed the table separator directly below the header, and removed the active conflict markers. We then staged README.md, committed the resolution, and pushed it. Further conflicts involved Erik/Karlos and Nick/William; their resolutions preserved the existing rows and added the remaining members' rows. The completed table contains all six members.
 
-The resolutions are recorded in merge commits ef87a32 (Igris/VII), 97ed0a6 (Erik/Karlos), and 8136c20 (Nick/William).
+The resolutions are recorded in merge commits `ef87a32` (Igris/VII), `97ed0a6` (Erik/Karlos), and `8136c20` (Nick/William).
